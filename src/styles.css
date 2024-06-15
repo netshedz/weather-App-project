@@ -1,0 +1,16 @@
+body {
+  background: #e3f6f5;
+  font-family: sans-serif;
+}
+.Container {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(148, 241, 246) 0%,
+    rgb(148, 189, 246) 100.7%
+  );
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 10px 10px #4cc5f5;
+  padding: 40px;
+  border-radius: 15px;
+}
