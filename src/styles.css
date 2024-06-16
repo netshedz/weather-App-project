@@ -65,20 +65,22 @@ footer {
 .weather-details strong {
   color: #c54c82;
 }
+.current-temperature {
+  display: flex;
+  justify-content: space-between;
+}
 .current-temperature-icon {
-  position: relative;
-  top: -4px;
-  font-size: 40px;
-  margin-right: 2px;
+  width: 95px;
+  height: 85px;
 }
 
 .current-temperature-value {
   font-size: 50px;
   font-weight: bold;
+  line-height: 80px;
 }
 
 .current-temperature-unit {
   font-size: 28px;
-  position: relative;
   top: -20px;
 }
