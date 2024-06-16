@@ -9,19 +9,20 @@
   <body>
     <div class="Container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-bar"
+            id="search-bar"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
         <div class="cities">
-          <h1>Paris</h1>
+          <h1 id="city">Paris</h1>
           <p>Saturday 15 june 2024, 18:30</p>
         </div>
         <div class="weather">
@@ -56,5 +57,6 @@
         </p>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
